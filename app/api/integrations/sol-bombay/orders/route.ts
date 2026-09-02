@@ -105,7 +105,7 @@ export async function POST(request: Request) {
     line_items: lineItemsPayload,
     notes: notesArr.join('\n'),
     priority: 'medium',
-    source: 'sol_bombay'
+    source: 'public_form'
   };
 
   try {
