@@ -209,7 +209,7 @@ export interface Order {
   status: OrderStatus;
   status_history: OrderStatusHistoryEntry[];
   priority: OrderPriority;
-  source: 'public_form' | 'admin';
+  source: 'public_form' | 'admin' | 'sol_bombay';
   line_items: OrderLineItem[];
   selling_price: number; // order total Amount = sum(line_total_amount)
   total_product_cost: number;
