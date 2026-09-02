@@ -80,7 +80,7 @@ export interface OrderCreatePayload {
   line_items: OrderLineItemPayload[];
   notes?: string;
   priority?: OrderPriority;
-  source?: 'public_form' | 'admin';
+  source?: 'public_form' | 'admin' | 'sol_bombay';
 }
 
 async function resolveCustomer(payload: OrderCreatePayload): Promise<Customer> {
